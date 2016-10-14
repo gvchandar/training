@@ -40,7 +40,7 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
   subnet_id = "subnet-7a27570c"
   vpc_security_group_ids = ["sg-83f00ae5"]
-  count = 2
+  count = 1
   tags  {
        Identity = "hashicorp-training-cfcd208495d565ef66e7dff9f98764da"
        DateOfCreation = "14thOct2016"
