@@ -59,4 +59,4 @@ output "public_ip" {
        value = ["${aws_instance.web.*.public_ip}"]
 }
 
-Testing synatx erro
+Testing synatx error for Atals
